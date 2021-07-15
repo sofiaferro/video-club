@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "DM-Serif-Display-Regular";
+  src: url("/fonts/DM-Serif-Display-Regular/DMSerifDisplay-Regular.ttf");
+  font-display: swap;
+}
+

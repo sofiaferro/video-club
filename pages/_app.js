@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import MovieWrapper from "../context/peliculas/context";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <MovieWrapper>
+      <Component {...pageProps} />
+    </MovieWrapper>
+  );
 }
 
-export default MyApp
+export default MyApp;

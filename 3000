@@ -1,0 +1,59 @@
+COMMAND    PID           USER   FD   TYPE             DEVICE SIZE/OFF   NODE NAME
+launchd      1           root   10u  IPv4 0x60f2029a6b24f611      0t0    UDP *:netbios-ns
+launchd      1           root   18u  IPv4 0x60f2029a6b24f359      0t0    UDP *:netbios-dgm
+configd     60           root    8u  IPv4 0x60f2029a6ce543a9      0t0    UDP *:*
+configd     60           root    9u  IPv4 0x60f2029a6b24cd49      0t0    UDP *:*
+configd     60           root   20u  IPv4 0x60f2029a6f2773a9      0t0    UDP *:*
+configd     60           root   26u  IPv6 0x60f2029a6dcf58c9      0t0 ICMPV6 *:*
+postgres    67       postgres    4u  IPv6 0x60f2029a6e936849      0t0    TCP *:hbci (LISTEN)
+postgres    67       postgres    5u  IPv4 0x60f2029a6de5a689      0t0    TCP *:hbci (LISTEN)
+postgres    67       postgres   10u  IPv6 0x60f2029a6b24e5c1      0t0    UDP localhost:52187->localhost:52187
+apsd        84           root   10u  IPv4 0x60f2029a71acf3b9      0t0    TCP 192.168.0.14:50133->17.57.144.41:5223 (ESTABLISHED)
+apsd        84           root   15u  IPv4 0x60f2029a71acf3b9      0t0    TCP 192.168.0.14:50133->17.57.144.41:5223 (ESTABLISHED)
+locationd   90     _locationd   10u  IPv4 0x60f2029a6da9b0f1      0t0    UDP *:*
+mysqld      97         _mysql   29u  IPv6 0x60f2029a6e935cc9      0t0    TCP *:33060 (LISTEN)
+mysqld      97         _mysql   31u  IPv6 0x60f2029a6e936e09      0t0    TCP *:mysql (LISTEN)
+loginwind   99     sofiaferro    9u  IPv4 0x60f2029a6da98ae1      0t0    UDP *:*
+AirPlayXP  106           root    3u  IPv4 0x60f2029a6b24eb31      0t0    UDP *:*
+AirPlayXP  106           root    5u  IPv4 0x60f2029a6ce53611      0t0    UDP *:*
+airportd   135           root   10u  IPv6 0x60f2029a6ce512b9      0t0    UDP *:*
+airportd   135           root   11u  IPv4 0x60f2029a6ce54661      0t0    UDP *:*
+airportd   135           root   12u  IPv4 0x60f2029a6ce56701      0t0    UDP *:*
+airportd   135           root   16u  IPv4 0x60f2029a6ce53b81      0t0    UDP *:*
+airportd   135           root   18u  IPv4 0x60f2029a6ce55ed9      0t0    UDP *:*
+airportd   135           root   21u  IPv4 0x60f2029a6b2500f1      0t0    UDP *:*
+airportd   135           root   23u  IPv4 0x60f2029a6b2503a9      0t0    UDP *:*
+airportd   135           root   25u  IPv4 0x60f2029a6b250661      0t0    UDP *:*
+mDNSRespo  155 _mdnsresponder    7u  IPv4 0x60f2029a6da9a8c9      0t0    UDP *:mdns
+mDNSRespo  155 _mdnsresponder    8u  IPv6 0x60f2029a6da9a359      0t0    UDP *:mdns
+mDNSRespo  155 _mdnsresponder   44u  IPv4 0x60f2029a6f278ed9      0t0    UDP *:52779
+mDNSRespo  155 _mdnsresponder   45u  IPv6 0x60f2029a6f277bd1      0t0    UDP *:52779
+mDNSRespo  155 _mdnsresponder   48u  IPv4 0x60f2029a6f2770f1      0t0    UDP *:56507
+mDNSRespo  155 _mdnsresponder   49u  IPv6 0x60f2029a6f277919      0t0    UDP *:56507
+mDNSRespo  155 _mdnsresponder   50u  IPv4 0x60f2029a6f279191      0t0    UDP *:64731
+mDNSRespo  155 _mdnsresponder   51u  IPv6 0x60f2029a6f2799b9      0t0    UDP *:64731
+symptomsd  185      _networkd   28u  IPv4 0x60f2029a6ce54919      0t0    UDP *:*
+postgres   213       postgres   10u  IPv6 0x60f2029a6b24e5c1      0t0    UDP localhost:52187->localhost:52187
+postgres   214       postgres   10u  IPv6 0x60f2029a6b24e5c1      0t0    UDP localhost:52187->localhost:52187
+postgres   215       postgres   10u  IPv6 0x60f2029a6b24e5c1      0t0    UDP localhost:52187->localhost:52187
+postgres   216       postgres   10u  IPv6 0x60f2029a6b24e5c1      0t0    UDP localhost:52187->localhost:52187
+postgres   217       postgres   10u  IPv6 0x60f2029a6b24e5c1      0t0    UDP localhost:52187->localhost:52187
+postgres   218       postgres   10u  IPv6 0x60f2029a6b24e5c1      0t0    UDP localhost:52187->localhost:52187
+UserEvent  272     sofiaferro    3u  IPv4 0x60f2029a6ce54e89      0t0    UDP *:*
+SystemUIS  278     sofiaferro    6u  IPv4 0x60f2029a6da982b9      0t0    UDP *:*
+SystemUIS  278     sofiaferro    7u  IPv4 0x60f2029a6da98001      0t0    UDP *:53130
+SystemUIS  278     sofiaferro    8u  IPv4 0x60f2029a6da97d49      0t0    UDP *:*
+EpocCam    339     sofiaferro    7u  IPv4 0x60f2029a71acfd21      0t0    TCP *:unot (LISTEN)
+EpocCam    339     sofiaferro    8u  IPv6 0x60f2029a6e935709      0t0    TCP *:unot (LISTEN)
+identitys  343     sofiaferro   19u  IPv4 0x60f2029a6da9bbd1      0t0    UDP *:*
+sharingd   347     sofiaferro    4u  IPv4 0x60f2029a6da9b661      0t0    UDP *:*
+sharingd   347     sofiaferro    8u  IPv4 0x60f2029a6da9be89      0t0    UDP *:*
+sharingd   347     sofiaferro    9u  IPv4 0x60f2029a6da98829      0t0    UDP *:*
+sharingd   347     sofiaferro   15u  IPv4 0x60f2029a6f2742b9      0t0    UDP *:*
+rapportd   367     sofiaferro    3u  IPv4 0x60f2029a71ad1959      0t0    TCP *:50128 (LISTEN)
+rapportd   367     sofiaferro    4u  IPv6 0x60f2029a6e936289      0t0    TCP *:50128 (LISTEN)
+WiFiAgent  375     sofiaferro    5u  IPv4 0x60f2029a6ce52051      0t0    UDP *:*
+firefox    784     sofiaferro   52u  IPv4 0x60f2029a71ad0689      0t0    TCP 192.168.0.14:50132->ec2-44-241-185-165.us-west-2.compute.amazonaws.com:https (ESTABLISHED)
+Code\x20H 6076     sofiaferro   29u  IPv4 0x60f2029a6ede13b9      0t0    TCP 192.168.0.14:50153->40.64.128.224:https (CLOSED)
+netbiosd  6194       _netbios    3u  IPv4 0x60f2029a6b24f611      0t0    UDP *:netbios-ns
+netbiosd  6194       _netbios    4u  IPv4 0x60f2029a6b24f359      0t0    UDP *:netbios-dgm
